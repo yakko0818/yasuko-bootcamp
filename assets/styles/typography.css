@@ -1,0 +1,73 @@
+* {
+    color:black;
+}
+
+h2{
+    font-style: italic;
+}
+
+h3{
+    color: crimson;
+    font-family: monospace;
+}
+
+#chapter-one{
+    color:#33476b;
+    font-size: 32px;
+}
+
+#chapter-two{
+    color:rgba(0,255,0, 0.7);
+    font-size: 200%;
+}
+
+
+.chapter-2 p{
+    font-family: serif;
+    font-style: italic;
+}
+
+#chapter-three{
+    color:rgb(60, 28, 175);
+    font-size: 2em;
+}
+/* span inside "class=chapter3" */
+.chapter-3 span {
+    font-weight: 700;
+
+}
+#text-transform-uppercase{
+    text-transform: uppercase;
+}
+#lowercase{text-transform: lowercase;}
+#capitalize{text-transform: capitalize;}
+#yasuko span {
+    text-transform: uppercase;
+}
+#text-decoration{
+    /* text-decoration: overline dashed; */
+        /* text-decoration: underline dashed; */
+        /* text-decoration: line-through wavy; */
+        text-decoration: underline wavy;
+       
+
+}
+#text-align{
+    text-align:center;
+    /* text-align: right; */
+    text-shadow: -3px -2px 5px #961204;
+    font-size: 2em;
+}
+
+#p1{
+    text-align: justify;
+}
+#p2{
+    text-align: center;
+}
+
+#sample{
+    text-indent: 35px;
+    /* word-spacing: 1px;
+    letter-spacing: 5px; */
+}

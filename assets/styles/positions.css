@@ -1,0 +1,68 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+/* Fixed */
+.navigation{
+    background-color: darkseagreen;
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+    width: 100%;
+}
+/* \Relative */
+.navigation h1{
+    position: relative;
+    left:10%;
+    width: 90%;
+}
+
+/*  */
+.announcement{
+    background-color: darkgoldenrod;
+    height: 400px;
+    margin-top: 70px;
+    position: relative;
+    /* z-index: 5; */
+
+
+}
+/* Absolute */
+.announcement h2{
+    color: #ffff;
+    text-transform: capitalize;
+    font-size: 3.75em;
+    font-family:Impact;
+    letter-spacing: 3px;    
+    position: absolute;
+    left: 10%;
+    top: 40%;
+}
+
+.main{
+    width: 80%;
+    margin-left:auto;
+    margin-right:auto;
+    padding: 40px 0;
+}
+
+.main p {
+
+    font: size 1.5em;
+    margin-bottom: 25px;
+}
+
+footer{
+    padding: 20px;
+    background-color: #222;
+
+}
+
+footer p {
+    text-align: center;
+    color:#fff;
+    
+
+}

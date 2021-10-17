@@ -1,0 +1,14 @@
+img{
+    height:120px;
+    width:380px;
+    float:right;
+
+}
+
+/* span{
+    display: block;
+} */
+
+p span{
+    clear:right;
+}
